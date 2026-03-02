@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetLove - Petshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐾 PetLove</h1>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Cuidando do seu melhor amigo!</h2>
+    <p>Banho, tosa, produtos e muito carinho para seu pet.</p>
+    <button onclick="mostrarMensagem()">Agendar Agora</button>
+</section>
+
+<section id="servicos" class="section">
+    <h2>Nossos Serviços</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>🛁 Banho</h3>
+            <p>Higiene completa com produtos especiais.</p>
+        </div>
+        <div class="card">
+            <h3>✂️ Tosa</h3>
+            <p>Profissionais especializados em estética animal.</p>
+        </div>
+        <div class="card">
+            <h3>🏥 Veterinário</h3>
+            <p>Atendimento clínico para seu pet.</p>
+        </div>
+    </div>
+</section>
+
+<section id="produtos" class="section">
+    <h2>Produtos em Destaque</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Ração Premium</h3>
+            <p>Alimentação balanceada.</p>
+        </div>
+        <div class="card">
+            <h3>Brinquedos</h3>
+            <p>Diversão garantida para seu pet.</p>
+        </div>
+        <div class="card">
+            <h3>Shampoo Pet</h3>
+            <p>Especial para pele sensível.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="section contato">
+    <h2>Entre em Contato</h2>
+    <form id="formContato">
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="email" placeholder="Seu Email" required>
+        <textarea placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 PetLove - Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
